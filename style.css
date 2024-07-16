@@ -1,0 +1,63 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+}
+
+.page-title{
+    flex: 1;
+}
+
+.submit-request{
+    border: .5px solid white;
+}
+
+.hero-section{
+    text-align: center;
+    padding: 100px 10px;
+    background-color: #dadbf1;
+}
+
+.sections{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 10px;
+}
+
+.section-row{
+    display: flex;
+    margin: 50px 0;
+    justify-content: center;
+}
+
+.section-box{
+    display: flex;
+    width: 350px;
+    margin: 0 10px;
+}
+
+.icon img{
+    width: 70px;
+}
+
+.box-title{
+    margin: 0px;
+}
+
+.footer{
+    display: flex;
+    background-color: #000000;
+    color: white;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
