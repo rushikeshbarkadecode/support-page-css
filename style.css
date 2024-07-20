@@ -1,27 +1,92 @@
 body{
     padding: 0;
     margin: 0;
+    font-family: Inter;
 }
 
-header{
+
+.header{
     display: flex;
+    justify-content: center;
+    height: 88px;
     background-color: #000000;
-    color: white;
-    padding: 10px;
 }
 
-.page-title{
-    flex: 1;
+.inner-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1200px;
+    color: white;
+    padding: 0 50px;
+}
+
+.header-wrap{
+    display: flex;
+    justify-content: center;
+}
+
+.page-title-container{
+    flex: 2;
+    font-size: 24px;
+}
+
+.page-title:hover{
+    text-decoration: underline;
+}
+
+.header-buttons{
+    text-align: right;
+}
+
+.header-buttons button{
+    padding: 6px 22px;
+    font-size: 24px;
+    color: white;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+.submit-request{
+    background-color: #191a1b;
+    
 }
 
 .submit-request{
     border: .5px solid white;
 }
 
+.sign-in{
+    background-color: #4A5FD1;
+    border-style: solid;
+    border-color: #4A5FD1;
+}
+
+.sign-in:hover{
+    background-color: white;
+    color: #000000;
+    border-color: white;
+}
+
 .hero-section{
     text-align: center;
     padding: 100px 10px;
     background-color: #dadbf1;
+}
+
+.hero-section h2{
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.hero-section input{
+    width: 720px;
+    padding: 16px;
+    outline: none;
+}
+
+.hero-section button{
+    padding: 16px;
 }
 
 .sections{
@@ -33,7 +98,7 @@ header{
 
 .section-row{
     display: flex;
-    margin: 50px 0;
+    margin-bottom: 50px;
     justify-content: center;
 }
 
@@ -45,6 +110,7 @@ header{
 
 .icon img{
     width: 70px;
+    padding-right: 20px;
 }
 
 .box-title{
@@ -55,9 +121,29 @@ header{
     display: flex;
     background-color: #000000;
     color: white;
+    padding: 20px 0;
+    justify-content: space-between;
+    padding: 50px;
 }
 
 .footer a{
     color: white;
     text-decoration: none;
+}
+
+.footer-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column span{
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#copyright{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
